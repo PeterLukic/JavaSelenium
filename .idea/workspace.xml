@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26zHE2f3xuNkNrNQ6LfmyQuiqac" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNg.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="" />
+      <created>1648419384792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648419384792</updated>
+    </task>
+    <servers />
+  </component>
+</project>
