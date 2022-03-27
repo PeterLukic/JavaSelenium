@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="" />
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +21,14 @@
     </option>
   </component>
   <component name="ProjectId" id="26zHE2f3xuNkNrNQ6LfmyQuiqac" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -64,6 +66,28 @@
       <option name="presentableId" value="Default" />
       <updated>1648419384792</updated>
     </task>
+    <task id="LOCAL−00001" summary="Initial commit">
+      <created>1648419958754</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1648419958754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
