@@ -1,15 +1,18 @@
 package runner;
 
 import com.ea.framework.utilities.ExtentReport;
-import io.cucumber.testng.*;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.FeatureWrapper;
+import io.cucumber.testng.PickleWrapper;
+import io.cucumber.testng.TestNGCucumberRunner;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@CucumberOptions(features = {"src/test/java/features/"}, glue = {"steps"})
-public class TestRunner {
+@CucumberOptions(features = {"src/test/java/features/"}, glue = {"steps"}, tags = "@Login")
+public class TestRunnerOneTest {
 
 
     private TestNGCucumberRunner testNGCucumberRunner;
@@ -35,6 +38,4 @@ public class TestRunner {
     public void afterClass() {
         testNGCucumberRunner.finish();
     }
-
-
 }

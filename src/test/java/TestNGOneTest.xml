@@ -7,7 +7,7 @@
     </listeners>
     <test name="All1" parallel="classes">
         <classes>
-            <class name="runner.TestRunner">
+            <class name="runner.TestRunnerOneTest">
                 <methods>
                     <include name="AllTests"/>
                 </methods>

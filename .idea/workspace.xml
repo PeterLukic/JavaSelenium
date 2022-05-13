@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit" />
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/EAExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/EAExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Employee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Employee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,7 +63,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml">
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaFramework" />
       <shortenClasspath name="NONE" />
@@ -51,8 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
+      <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
       </list>
     </recent_temporary>
@@ -72,7 +130,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1648419958754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Initial commit">
+      <created>1648419985950</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1648419985950</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaSelenium$C__Users_Peter_Lukic_source_repos_JavaSelenium_src_test_java_TestNGOneTest_xml__1_.ic" NAME="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml (1) Coverage Results" MODIFIED="1652454570624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
