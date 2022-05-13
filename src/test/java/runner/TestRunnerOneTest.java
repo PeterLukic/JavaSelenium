@@ -24,7 +24,7 @@ public class TestRunnerOneTest {
 
 
     @Test(dataProvider = "features")
-    public void AllTests(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) throws ClassNotFoundException {
+    public void OneTests(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) throws ClassNotFoundException {
         ExtentReport.startFeature(featureWrapper.toString());
         testNGCucumberRunner.runScenario(pickleWrapper.getPickle());
     }
