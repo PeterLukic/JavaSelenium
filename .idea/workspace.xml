@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/TestReport/EAExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/EAExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunnerOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunnerOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1652458348967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Initial commit">
+      <created>1652458694666</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1652458694666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
