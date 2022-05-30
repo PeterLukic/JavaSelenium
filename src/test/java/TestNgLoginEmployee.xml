@@ -5,11 +5,20 @@
         <listener class-name="runner.ReportListener" />
         <listener class-name="runner.TestNgListener" />
     </listeners>
+    <test name="Login" parallel="classes">
+        <classes>
+            <class name="runner.TestRunnerLogin">
+                <methods>
+                    <include name="TestLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
     <test name="Employee" parallel="classes">
         <classes>
-            <class name="runner.TestRunner">
+            <class name="runner.TestRunnerEmployee">
                 <methods>
-                    <include name="AllTests"/>
+                    <include name="TestEmployee"/>
                 </methods>
             </class>
         </classes>

@@ -13,7 +13,7 @@ public class ReportListener implements ITestListener {
 
     @Override
     public synchronized void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("On Test Sucess");
+        System.out.println("On Test Success");
     }
 
     @Override

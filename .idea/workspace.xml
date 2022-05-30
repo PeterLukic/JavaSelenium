@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNgLoginEmployee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestReport/EAExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/EAExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/ReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/ReportListener.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +64,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Peter Lukic\source\repos\JavaSelenium\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml">
     <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaFramework" />
       <shortenClasspath name="NONE" />
@@ -77,7 +92,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNgLoginEmployee.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" type="TestNG" nameIsGenerated="true">
       <module name="JavaFramework" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -100,10 +135,11 @@
     <list>
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
+      <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
       </list>
     </recent_temporary>
@@ -147,7 +183,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1652458694666</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Initial commit">
+      <created>1652514199361</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1652514199361</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

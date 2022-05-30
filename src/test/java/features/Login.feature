@@ -10,3 +10,4 @@ Feature: Login
       | admin    | password |
     Then I click login button
     Then I should see the username with hello
+

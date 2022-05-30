@@ -5,7 +5,7 @@
         <listener class-name="runner.ReportListener" />
         <listener class-name="runner.TestNgListener" />
     </listeners>
-    <test name="All1" parallel="classes">
+    <test name="OneTest1" parallel="classes">
         <classes>
             <class name="runner.TestRunnerOneTest">
                 <methods>
