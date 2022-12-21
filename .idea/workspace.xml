@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNgLoginEmployee.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunnerLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestReport/EAExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/EAExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/ReportListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/ReportListener.class" afterDir="false" />
-    </list>
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update test cases and POM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +189,21 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1652514199361</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update test cases and POM">
+      <created>1671635615980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671635615980</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update test cases and POM">
+      <created>1671635803622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671635803622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Update test cases and POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update test cases and POM" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaSelenium$C__Users_Peter_Lukic_source_repos_JavaSelenium_src_test_java_TestNGOneTest_xml__1_.ic" NAME="$PROJECT_DIR$/src/test/java/TestNGOneTest.xml (1) Coverage Results" MODIFIED="1652454570624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
