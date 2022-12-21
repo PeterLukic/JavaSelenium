@@ -9,9 +9,6 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * Created by Karthik-pc on 12/10/2016.
- */
 public class ControlHandler implements InvocationHandler {
 
 

@@ -2,8 +2,8 @@ Feature: Employee
   Responsible for verifying Benefits, Create Employee,
   Delete employee and check if the functionality works
 
-  @Employee
-  Scenario: Create Employee with all details
+
+  Scenario: Create Employee with all details 1
     And I ensure application opened
     Then I click login link
     When I enter UserName and Password
@@ -19,12 +19,4 @@ Feature: Employee
   And I click create button
 
 
-  @Employee
-  Scenario: Create Employee with all details 2
-    And I ensure application opened
-    Then I click login link
-    When I enter UserName and Password
-      | UserName | admin    |
-      | Password | password |
-    Then I click login button
-    And I click lnkManageUsers link
+

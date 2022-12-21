@@ -9,7 +9,7 @@ import pages.ManageUsersPage;
 
 public class ManageUsersSteps {
     @And("I click lnkManageUsers link")
-    public void iClickLnkManageUsersLink() throws InterruptedException {
+    public void iClickLnkManageUsersLink() {
         CurrentPageContext.setCurrentPage(CurrentPageContext.getCurrentPage().As(HomePage.class).ClickManageUsers());
         DriverContext.WaitForPageToLoad();
     }
@@ -23,6 +23,6 @@ public class ManageUsersSteps {
     public void iClickOnButtonAssign() throws InterruptedException {
         CurrentPageContext.getCurrentPage().As(ManageUsersPage.class).ClickButtonAssign();
         DriverContext.WaitForPageToLoad();
-        Thread.sleep(5000);
+        Thread.sleep(500);
     }
 }

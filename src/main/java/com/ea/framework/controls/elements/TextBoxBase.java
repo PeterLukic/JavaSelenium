@@ -10,10 +10,7 @@ public class TextBoxBase extends ControlBase implements TextBox {
     }
 
     @Override
-    public void EnterText(String text) {
-
-        getWrappedElement().sendKeys(text);
-
+    public void EnterText(String text) {getWrappedElement().sendKeys(text);
     }
 
     @Override

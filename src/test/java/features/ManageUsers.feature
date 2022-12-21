@@ -1,7 +1,6 @@
 Feature: Manage Users
   Manage Users test cases
 
-  @OneTest
   Scenario: Select Role for User
     And I ensure application opened
     Then I click login link

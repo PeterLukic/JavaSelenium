@@ -5,7 +5,6 @@ import com.ea.framework.base.Base;
 
 import com.ea.framework.base.CurrentPageContext;
 import com.ea.framework.utilities.CucumberUtil;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pages.HomePage;
@@ -33,22 +32,21 @@ public class LoginSteps extends Base {
     }
 
     @When("^I enter UserName and Password$")
-    public void iEnterUserNameAndPassword(List<List<String>> table) throws InterruptedException {
+    public void iEnterUserNameAndPassword(List<List<String>> table) {
         Map<String, String> mapTable = CucumberUtil.TableDictionaryConverter(table);
-
         CurrentPageContext.getCurrentPage().As(LoginPage.class).Login(mapTable.get("UserName"), mapTable.get("Password"));
 
-        //Thread.sleep(2000);
     }
 
     @Then("^I click login button$")
-    public void iClickLoginButton() {
+    public void iClickLoginButton() throws InterruptedException {
         //Home Page
         CurrentPageContext.setCurrentPage(CurrentPageContext.getCurrentPage().As(LoginPage.class).ClickLogin());
     }
 
     @Then("I insert UserName and Password")
     public void iInsertUserNameAndPassword() {
+        CurrentPageContext.getCurrentPage().As(LoginPage.class).Login();
     }
 
     @Then("^I should see the username with hello$")

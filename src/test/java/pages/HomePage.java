@@ -2,7 +2,6 @@ package pages;
 
 import com.ea.framework.base.BasePage;
 import com.ea.framework.controls.elements.HyperLink;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -19,7 +18,7 @@ public class HomePage extends BasePage {
     public HyperLink lnkManageUsers;
 
     @FindBy(how = How.XPATH, using = "//a[@title='Manage']")
-    public WebElement lnkUserName;
+    public HyperLink lnkUserName;
 
     public LoginPage ClickLogin() {
         lnkLogin.ClickLink();
@@ -40,7 +39,7 @@ public class HomePage extends BasePage {
         return GetInstance(EmployeeListPage.class);
     }
 
-    public ManageUsersPage ClickManageUsers() throws InterruptedException {
+    public ManageUsersPage ClickManageUsers() {
 
         lnkManageUsers.WaitForVisible().Click();
         return GetInstance(ManageUsersPage.class);

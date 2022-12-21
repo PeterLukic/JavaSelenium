@@ -1,7 +1,7 @@
 Feature: Login
   This feature is responsible for testing all the scenarios for Login of application
 
-  @Login
+  @OneTest
   Scenario: Check Login with correct username and password
     And I ensure application opened
     Then I click login link
@@ -10,7 +10,6 @@ Feature: Login
       | Password | password |
     Then I click login button
     Then I should see the username with hello
-
 
 
   Scenario: Check Login with correct username and password failed
@@ -28,6 +27,8 @@ Feature: Login
     And I ensure application opened
     Then I click login link
     Then I insert UserName and Password
+    Then I click login button
+    Then I should see the username with hello
 
 
 

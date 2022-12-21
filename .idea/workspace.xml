@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update test cases and POM" />
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update test cases and POM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/api/ControlHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/api/ControlHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/api/ControlListHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/api/ControlListHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/elements/TextBoxBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/controls/elements/TextBoxBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Employee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Employee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/ManageUsers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/ManageUsers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TestInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TestInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/api/ControlHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/api/ControlHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/api/ControlListHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/api/ControlListHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/elements/TextBoxBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/controls/elements/TextBoxBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/embedded1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CreateEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CreateEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +63,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/resources/extent.properties" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -59,7 +91,7 @@
       <recent name="C:\Users\Peter Lukic\source\repos\JavaSelenium\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml">
     <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaFramework" />
       <shortenClasspath name="NONE" />
@@ -130,14 +162,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNg.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
+      <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
@@ -203,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671635803622</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update test cases and POM">
+      <created>1671635842405</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671635842405</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

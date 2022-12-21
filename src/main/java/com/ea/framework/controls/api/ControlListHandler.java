@@ -11,9 +11,6 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Karthik-pc on 12/10/2018.
- */
 public class ControlListHandler implements InvocationHandler {
 
     private final ElementLocator locator;

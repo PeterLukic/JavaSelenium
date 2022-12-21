@@ -29,8 +29,9 @@ public class LoginPage extends BasePage {
         txtPassword.EnterText(Settings.Password);
     }
 
-    public HomePage ClickLogin() {
+    public HomePage ClickLogin() throws InterruptedException {
         btnLogin.WaitForVisible().Click();
+        Thread.sleep(2000);
         return GetInstance(HomePage.class);
     }
 
