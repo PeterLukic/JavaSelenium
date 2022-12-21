@@ -1,20 +1,14 @@
 package com.ea.framework.base;
 
-import com.ea.framework.config.Settings;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by Karthik-PC on 21/04/2018.
- */
+import java.time.Duration;
+
 public class DriverContext {
-
-
+    static String pageLoadStatus = null;
 
     public static void GoToUrl(String url)
     {
@@ -25,46 +19,48 @@ public class DriverContext {
         LocalDriverContext.getRemoteWebDriver().quit();
     }
 
-    public static void WaitForPageToLoad(){
-        var wait= new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), 30);
-        var jsExecutor = LocalDriverContext.getRemoteWebDriver();
-
-        ExpectedCondition<Boolean> jsLoad = webDriver ->  (LocalDriverContext.getRemoteWebDriver())
-                .executeScript("return document.readyState").toString().equals("complete");
-
-        //Get JS Ready
-        boolean jsReady = jsExecutor.executeScript("return document.readyState").toString().equals("complete");
-
-        if(!jsReady)
-            wait.until(jsLoad);
-        else
-            Settings.Logs.Write("Page is ready !");
-
+    public static void WaitForPageToLoad() {
+        do {
+            JavascriptExecutor js = LocalDriverContext.getRemoteWebDriver();
+            pageLoadStatus = (String) js.executeScript("return document.readyState");
+            System.out.print(".");
+        } while (!pageLoadStatus.equals("complete"));
     }
 
     public  static  void WaitForElementVisible(final WebElement elementFindBy){
-        WebDriverWait wait= new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), 30);
+        WebDriverWait wait= new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(elementFindBy));
     }
 
-    public static void WaitForElementTextVisible(final WebElement elementFindBy, String text){
-        WebDriverWait wait= new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), 30);
-        wait.until(ExpectedConditions.textToBePresentInElement(elementFindBy, text));
-    }
-
-    public static void WaitUntilTextDisplayed(final By element, String text){
-        WebDriverWait wait = new WebDriverWait(LocalDriverContext.getRemoteWebDriver(),30);
-        wait.until(textDisplayed(element, text));
-    }
-
-    private static ExpectedCondition<Boolean> textDisplayed (final By elementFindBy, final String text){
-        return webDriver -> webDriver.findElement(elementFindBy).getText().contains(text);
-    }
-
-    public static void WaitElementEnabled(final By elementFindBy){
-        WebDriverWait wait = new WebDriverWait(LocalDriverContext.getRemoteWebDriver(),30);
-        wait.until(webDriver -> webDriver.findElement(elementFindBy).isEnabled());
-    }
-
+//    public static void WaitForElementTextVisible(final WebElement elementFindBy, String text){
+//        WebDriverWait wait= new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), Duration.ofSeconds(30));
+//        wait.until(ExpectedConditions.textToBePresentInElement(elementFindBy, text));
+//    }
+//
+//    public static void WaitUntilTextDisplayed(WebElement element, String text){
+//        //WebDriverWait wait = new WebDriverWait(LocalDriverContext.getRemoteWebDriver(),Duration.ofSeconds(30));
+//        elementTextDisplayed(element, text);
+//    }
+//
+//    public static void WaitElementEnabled(final By elementFindBy){
+//        WebDriverWait wait = new WebDriverWait(LocalDriverContext.getRemoteWebDriver(),Duration.ofSeconds(30));
+//        wait.until(webDriver -> webDriver.findElement(elementFindBy).isEnabled());
+//
+//    }
+//    private static ExpectedCondition elementTextDisplayed(WebElement element, String text) {
+//        return new ExpectedCondition<java.lang.Boolean>() {
+//            public java.lang.Boolean apply(WebDriver driver) {
+//                return element.getText().equals(text);
+//            }
+//        };
+//    }
+//
+//    private static Boolean elementTextDisplayedBoolean(final By elementFindBy, String text) {
+//        var ele = LocalDriverContext.getRemoteWebDriver().findElement(elementFindBy);
+//
+//        WebDriverWait wait = new WebDriverWait(LocalDriverContext.getRemoteWebDriver(), Duration.ofSeconds(30));
+//        return wait.until(ExpectedConditions.textToBePresentInElement(ele, text));
+//
+//    }
 
 }

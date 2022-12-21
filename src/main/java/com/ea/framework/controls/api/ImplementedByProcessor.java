@@ -2,9 +2,6 @@ package com.ea.framework.controls.api;
 
 import com.ea.framework.controls.internals.Control;
 
-/**
- * Created by Karthik-pc on 12/10/2016.
- */
 public final class ImplementedByProcessor {
 
     public ImplementedByProcessor() {

@@ -3,11 +3,10 @@ package com.ea.framework.utilities;
 import io.cucumber.datatable.DataTable;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-/**
- * Created by Karthik-PC on 21/04/2018.
- */
 public class CucumberUtil {
 
 
@@ -52,6 +51,14 @@ public class CucumberUtil {
             ColumnValue = columnValue;
             RowNumber = rowNumber;
         }
+    }
+
+    public static synchronized Map<String, String> TableDictionaryConverter(List<List<String>> data) {
+        Map<String, String> mapTable = new HashMap<String, String>();
+        for(List<String> rows: data) {
+            mapTable.put(rows.get(0), rows.get(1));
+        }
+        return mapTable;
     }
 
 }

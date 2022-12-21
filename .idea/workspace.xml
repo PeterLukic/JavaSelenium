@@ -71,7 +71,7 @@
       <recent name="C:\Users\Peter Lukic\source\repos\JavaSelenium\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml">
     <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaFramework" />
       <shortenClasspath name="NONE" />
@@ -132,13 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNgOneTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNg.xml" />
+      <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
       <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
       </list>

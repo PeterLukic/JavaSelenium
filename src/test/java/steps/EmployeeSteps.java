@@ -1,9 +1,7 @@
 package steps;
 
-import com.aventstack.extentreports.GherkinKeyword;
 import com.ea.framework.base.CurrentPageContext;
 import com.ea.framework.base.DriverContext;
-import com.ea.framework.utilities.ExtentReport;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.*;
 import model.EmployeeModel;
@@ -22,30 +20,25 @@ public class EmployeeSteps  {
     }
 
     @And("^I click employeeList link$")
-    public void iClickEmployeeListLink() throws Throwable {
+    public void iClickEmployeeListLink() {
         CurrentPageContext.setCurrentPage(CurrentPageContext.getCurrentPage().As(HomePage.class).ClickEmployeeList());
         DriverContext.WaitForPageToLoad();
-        ExtentReport.getScenario().createNode(new GherkinKeyword("And"), "I click employeeList link");
-
     }
 
     @Then("I click create new button")
-    public void iClickCreateNewButton() throws Throwable {
+    public void iClickCreateNewButton()  {
         CurrentPageContext.setCurrentPage(CurrentPageContext.getCurrentPage().As(EmployeeListPage.class).ClickCreateNew());
         DriverContext.WaitForPageToLoad();
-        ExtentReport.getScenario().createNode(new GherkinKeyword("Then"), "I click create new button");
     }
 
     @And("^I enter following details$")
-    public void iEnterFollowingDetails(List<EmployeeModel> table) throws Throwable {
+    public void iEnterFollowingDetails(List<EmployeeModel> table) {
         CurrentPageContext.getCurrentPage().As(CreateEmployeePage.class).CreateEmployee(table.stream().findFirst().get());
-        ExtentReport.getScenario().createNode(new GherkinKeyword("And"), "I enter following details");
     }
 
     @And("^I click create button$")
-    public void iClickCreateButton() throws Throwable {
+    public void iClickCreateButton()  {
         CurrentPageContext.getCurrentPage().As(CreateEmployeePage.class).ClickCreateButton();
-        ExtentReport.getScenario().createNode(new GherkinKeyword("And"), "I click create button");
 
     }
 

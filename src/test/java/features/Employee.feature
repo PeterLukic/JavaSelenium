@@ -7,8 +7,8 @@ Feature: Employee
     And I ensure application opened
     Then I click login link
     When I enter UserName and Password
-      | UserName | Password |
-      | admin    | password |
+      | UserName | admin    |
+      | Password | password |
     Then I click login button
     And I click employeeList link
     Then I click create new button
@@ -17,3 +17,14 @@ Feature: Employee
       | AutoUser  | 4000   | 30             | 1     | autouser@ea.com |
       | AutoUser2 | 5000   | 40             | 1     | autouser@ea.com |
   And I click create button
+
+
+  @Employee
+  Scenario: Create Employee with all details 2
+    And I ensure application opened
+    Then I click login link
+    When I enter UserName and Password
+      | UserName | admin    |
+      | Password | password |
+    Then I click login button
+    And I click lnkManageUsers link

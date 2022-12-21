@@ -2,9 +2,7 @@ package com.ea.framework.base;
 
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by Karthik-PC on 11/23/2018.
- */
+
 public class Browser extends Base{
 
 

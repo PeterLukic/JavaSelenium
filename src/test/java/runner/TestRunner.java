@@ -1,40 +1,17 @@
 package runner;
 
-import com.ea.framework.utilities.ExtentReport;
-import io.cucumber.testng.*;
-import org.testng.ITestContext;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = {"src/test/java/features/"}, glue = {"steps"} )
 public class TestRunner {
 
+    @CucumberOptions(
+            features = {"src/test/java/features/"},
+            glue = {"steps"},
+            plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
-    private TestNGCucumberRunner testNGCucumberRunner;
+    public static class Runner extends AbstractTestNGCucumberTests {
 
-    @BeforeClass(alwaysRun = true)
-    public void setUpClass() {
-        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+
     }
-
-
-    @Test(dataProvider = "features")
-    public void AllTests(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) throws ClassNotFoundException {
-        ExtentReport.startFeature(featureWrapper.toString());
-        testNGCucumberRunner.runScenario(pickleWrapper.getPickle());
-    }
-
-    @DataProvider
-    public Object[] features(ITestContext context) {
-        return testNGCucumberRunner.provideScenarios();
-    }
-
-    @AfterClass(alwaysRun = true)
-    public void afterClass() {
-        testNGCucumberRunner.finish();
-    }
-
-
 }

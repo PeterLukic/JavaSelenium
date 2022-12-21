@@ -2,9 +2,6 @@ package com.ea.framework.base;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-/*
-Class to support Selenium Grid feature
- */
 public class LocalDriverContext {
 
     private static ThreadLocal<RemoteWebDriver> remoteWebDriverThreadLocal = new ThreadLocal<>();

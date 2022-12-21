@@ -34,11 +34,11 @@ public class CreateEmployeePage extends BasePage {
     }
 
 
-    public void CreateEmployee(String name, String salary, String durationworked, String grade, String email) {
+    public void CreateEmployee(String name, String salary, String durationWorked, String grade, String email) {
         DriverContext.WaitForElementVisible(txtEmail);
         txtName.sendKeys(name);
         txtSalary.sendKeys(salary);
-        txtDurationWorked.sendKeys(durationworked);
+        txtDurationWorked.sendKeys(durationWorked);
         txtGrade.sendKeys(grade);
         txtEmail.sendKeys(email);
     }
