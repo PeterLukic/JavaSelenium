@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 22, 2022 01:49:18 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 22, 2022 04:04:38 PM</span></a>
 </li>
 </ul>
 </div>
@@ -85,7 +85,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@OneTest</a><a class="dropdown-item" href="#">@Login</a>
+<a class="dropdown-item" href="#">@Login</a><a class="dropdown-item" href="#">@OneTest</a>
 </ul>
 </li>
 </ul>
@@ -98,7 +98,7 @@
           <div class="test-detail">
             <p class="name">Employee</p>
             <p class="text-sm">
-              <span>1:49:19 PM</span> / <span>00:00:17:502</span>
+              <span>4:04:39 PM</span> / <span>00:00:28:622</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -107,9 +107,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Employee</h5>
-<span class='badge badge-success'>12.22.2022 1:49:19 PM</span>
-<span class='badge badge-danger'>12.22.2022 1:49:36 PM</span>
-<span class='badge badge-default'>00:00:17:502</span>
+<span class='badge badge-success'>12.22.2022 4:04:39 PM</span>
+<span class='badge badge-danger'>12.22.2022 4:05:08 PM</span>
+<span class='badge badge-default'>00:00:28:622</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -177,14 +177,14 @@ Delete employee and check if the functionality works</div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="14"
+        <li class="test-item"  status="fail" test-id="3"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Login</p>
             <p class="text-sm">
-              <span>1:49:36 PM</span> / <span>00:00:24:860</span>
+              <span>4:04:39 PM</span> / <span>00:00:25:713</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -193,10 +193,10 @@ Delete employee and check if the functionality works</div>
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login</h5>
-<span class='badge badge-success'>12.22.2022 1:49:36 PM</span>
-<span class='badge badge-danger'>12.22.2022 1:50:01 PM</span>
-<span class='badge badge-default'>00:00:24:860</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-success'>12.22.2022 4:04:39 PM</span>
+<span class='badge badge-danger'>12.22.2022 4:05:05 PM</span>
+<span class='badge badge-default'>00:00:25:713</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -207,7 +207,7 @@ Delete employee and check if the functionality works</div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Check Login with correct username and password</div>
+        <div class="node" id="4"><span class="badge log pass-bg mr-2">Pass</span>Check Login with correct username and password</div>
       </div>
     </div>
         <div class="collapse">
@@ -245,7 +245,43 @@ Delete employee and check if the functionality works</div>
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="24"><span class="badge log fail-bg mr-2">Fail</span>Check Login with correct username and password failed</div>
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Check Login with correct username and password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.LoginSteps.iEnsureApplicationOpened()">
+                <span>And I ensure application opened</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.LoginSteps.iClickLoginLink()">
+                <span>Then I click login link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.LoginSteps.iInsertUserNameAndPassword()">
+                <span>Then I insert UserName and Password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.LoginSteps.iClickLoginButton()">
+                <span>Then I click login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.LoginSteps.iShouldSeeTheUsernameWithHello()">
+                <span>Then I should see the username with hello</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Check Login with correct username and password failed</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
@@ -284,9 +320,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [463b3adcf57b9ab1a72397c49bf3aae8, findElement {using=xpath, value=//a[@title='Manage']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:61320}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\PETERL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61320/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
+Command: [a618033388c9301d3f88240ae5126930, findElement {using=xpath, value=//a[@title='Manage']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:54540}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\PETERL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54540/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a618033388c9301d3f88240ae5126930
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -305,7 +341,7 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at com.ea.framework.controls.api.ControlHandler.invoke(ControlHandler.java:31)
 	at com.sun.proxy.$Proxy29.getText(Unknown Source)
-	at pages.HomePage.GetLoggedInUser(HomePage.java:38)
+	at pages.HomePage.GetLoggedInUser(HomePage.java:42)
 	at steps.LoginSteps.iShouldSeeTheUsernameWithHello(LoginSteps.java:54)
 	at ✽.I should see the username with hello(file:///C:/Users/Peter%20Lukic/source/repos/JavaSelenium/src/test/java/features/Login.feature:22)
 </textarea>
@@ -326,53 +362,17 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
           </div>
         </div>
   </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Check Login with correct username and password</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="steps.LoginSteps.iEnsureApplicationOpened()">
-                <span>And I ensure application opened</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="steps.LoginSteps.iClickLoginLink()">
-                <span>Then I click login link</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="steps.LoginSteps.iInsertUserNameAndPassword()">
-                <span>Then I insert UserName and Password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="steps.LoginSteps.iClickLoginButton()">
-                <span>Then I click login button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="steps.LoginSteps.iShouldSeeTheUsernameWithHello()">
-                <span>Then I should see the username with hello</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="42"
+        <li class="test-item"  status="pass" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Manage Users</p>
             <p class="text-sm">
-              <span>1:50:01 PM</span> / <span>00:00:13:149</span>
+              <span>4:04:39 PM</span> / <span>00:00:30:522</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -381,10 +381,10 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Manage Users</h5>
-<span class='badge badge-success'>12.22.2022 1:50:01 PM</span>
-<span class='badge badge-danger'>12.22.2022 1:50:14 PM</span>
-<span class='badge badge-default'>00:00:13:149</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span class='badge badge-success'>12.22.2022 4:04:39 PM</span>
+<span class='badge badge-danger'>12.22.2022 4:05:10 PM</span>
+<span class='badge badge-default'>00:00:30:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -395,7 +395,7 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Select Role for User</div>
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>Select Role for User</div>
       </div>
     </div>
         <div class="collapse">
@@ -484,9 +484,9 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:49:52 PM</td>
+<td>16:05:03 PM</td>
 <td>
-<a href="#" class="linked" test-id='14' id='30'>Then I should see the username with hello</a>
+<a href="#" class="linked" test-id='3' id='34'>Then I should see the username with hello</a>
 <div class="">
 <span class="badge badge-default">Login.Check Login with correct username and password failed.Then I should see the username with hello</span>
 </div>
@@ -517,42 +517,6 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@OneTest</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@OneTest</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>13:49:36 PM</td>
-<td>
-<a href="#" class="linked" test-id='14' id='15'>Check Login with correct username and password</a>
-<div class="">
-<span class="badge badge-default">Login.Check Login with correct username and password</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
 <p class="name">@Login</p>
 <p class="duration text-sm">1 tests</p>
 </div>
@@ -572,9 +536,45 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:49:53 PM</td>
+<td>16:04:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='14' id='33'>Check Login with correct username and password</a>
+<a href="#" class="linked" test-id='3' id='7'>Check Login with correct username and password</a>
+<div class="">
+<span class="badge badge-default">Login.Check Login with correct username and password</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@OneTest</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@OneTest</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:04:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='4'>Check Login with correct username and password</a>
 <div class="">
 <span class="badge badge-default">Login.Check Login with correct username and password</span>
 </div>
@@ -597,13 +597,13 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 22, 2022 01:49:18 PM</h3>
+<h3>Dec 22, 2022 04:04:38 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 22, 2022 01:50:14 PM</h3>
+<h3>Dec 22, 2022 04:05:10 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -693,7 +693,7 @@ Session ID: 463b3adcf57b9ab1a72397c49bf3aae8
 </div></div>
 <script>
 var timeline = {
-"Employee":17.502,"Login":24.86,"Manage Users":13.149
+"Employee":28.622,"Login":25.713,"Manage Users":30.522
 };
 </script>
 <div class="row">
@@ -703,7 +703,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@OneTest</td>
+<td>@Login</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -711,7 +711,7 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@Login</td>
+<td>@OneTest</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>

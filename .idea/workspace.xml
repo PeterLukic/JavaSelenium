@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update Page Object Model with declaration By">
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update BrowserType">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/FrameworkInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/FrameworkInitialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/config/GlobalConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/config/GlobalConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ManageUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ManageUsersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/Base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/BrowserType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/screenshots/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ManageUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ManageUsersPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg.xml" afterDir="false" />
@@ -282,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671712138031</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update BrowserType">
+      <created>1671713601364</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671713601364</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +302,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Update test cases and POM" />
     <MESSAGE value="Update Page Object Model with declaration By" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Page Object Model with declaration By" />
+    <MESSAGE value="Update BrowserType" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update BrowserType" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
