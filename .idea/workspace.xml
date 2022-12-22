@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update test cases and POM">
+    <list default="true" id="5b3a3b93-7624-4952-a8e4-d9b9c55d08a5" name="Changes" comment="Update Page Object Model with declaration By">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/FrameworkInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/base/FrameworkInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ea/framework/config/GlobalConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ea/framework/config/GlobalConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ManageUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ManageUsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ManageUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/TestReport/SeleniumReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ea/framework/base/FrameworkInitialize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/screenshots/embedded1.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/embedded1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CreateEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CreateEmployeePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ManageUsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/ManageUsersPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ManageUsersSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/TestInitialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <recent name="C:\Users\Peter Lukic\source\repos\JavaSelenium\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Select Role for User">
+  <component name="RunManager" selected="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml">
     <configuration name="Scenario: Select Role for User" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/ManageUsers.feature" />
@@ -199,9 +201,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml" />
         <item itemvalue="Cucumber Java.Scenario: Select Role for User" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNgOneTest.xml" />
-        <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/resources/testNg.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNgLoginEmployee.xml" />
         <item itemvalue="TestNG.C:/Users/Peter Lukic/source/repos/JavaSelenium/src/test/java/TestNGOneTest.xml" />
       </list>
@@ -273,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671635842405</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update Page Object Model with declaration By">
+      <created>1671712138031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671712138031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,14 +299,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Update test cases and POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update test cases and POM" />
+    <MESSAGE value="Update Page Object Model with declaration By" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Page Object Model with declaration By" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ea/framework/base/Base.java</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

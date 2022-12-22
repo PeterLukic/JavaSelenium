@@ -15,7 +15,8 @@ public class ManageUsersSteps {
     }
 
     @Then("I select Role {string}")
-    public void iSelectRole(String roleValue) throws InterruptedException {
+    public void iSelectRole(String roleValue) {
+        DriverContext.WaitForPageToLoad();
         CurrentPageContext.getCurrentPage().As(ManageUsersPage.class).SelectRoleByText(roleValue);
     }
 

@@ -19,17 +19,14 @@ public class ManageUsersPage extends BasePage {
 
 
 
-    public void SelectRoleByText(String text) throws InterruptedException {
-        DriverContext.WaitForPageToLoad();
-        Thread.sleep(2000);
+    public void SelectRoleByText(String text) {
         Select ddRoles = new Select(LocalDriverContext.getRemoteWebDriver().findElement(dropDownRole2));
         ddRoles.selectByVisibleText(text);
-        Thread.sleep(2000);
+
 
     }
-    public void ClickButtonAssign() throws InterruptedException {
+    public void ClickButtonAssign() {
         DriverContext.WaitForPageToLoad();
-        Thread.sleep(2000);
         buttonAssign.WaitForVisible().Click();
     }
 
