@@ -12,14 +12,17 @@ import org.openqa.selenium.support.ui.Select;
 
 public class ManageUsersPage extends BasePage {
 
+    By dropDownRole2 = By.xpath("/html/body//table[@class='table']/tbody/tr[3]/td[3]/select[@id='RoleName']");
+
     @FindBy(how = How.XPATH, using = "/html/body/div[2]/table[@class='table']/tbody/tr[3]/td[4]/input[@value='Assign']")
     public Button buttonAssign;
+
 
 
     public void SelectRoleByText(String text) throws InterruptedException {
         DriverContext.WaitForPageToLoad();
         Thread.sleep(2000);
-        Select ddRoles = new Select(LocalDriverContext.getRemoteWebDriver().findElement(By.xpath("/html/body//table[@class='table']/tbody/tr[3]/td[3]/select[@id='RoleName']")));
+        Select ddRoles = new Select(LocalDriverContext.getRemoteWebDriver().findElement(dropDownRole2));
         ddRoles.selectByVisibleText(text);
         Thread.sleep(2000);
 
