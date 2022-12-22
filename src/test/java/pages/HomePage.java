@@ -4,7 +4,6 @@ import com.ea.framework.base.BasePage;
 import com.ea.framework.base.LocalDriverContext;
 import com.ea.framework.controls.elements.HyperLink;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -30,10 +29,6 @@ public class HomePage extends BasePage {
         LocalDriverContext.getRemoteWebDriver().findElement(linkLogin).click();
         return GetInstance(LoginPage.class);
     }
-
-    @FindBy(linkText="Login")
-    private WebElement linkLogin1;
-
     public boolean IsLogin() {
         return lnkLogin.isDisplayed();
     }
